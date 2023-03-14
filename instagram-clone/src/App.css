@@ -1,12 +1,20 @@
+
+
 nav {
+  display: flex;
   height: 100%;
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #333;
+  border-right: 1px grey solid;
 }
 
 ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,7 +22,10 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
   width: 100%;
   
 }
@@ -34,3 +45,4 @@ li:hover {
 .active {
   background-color: #4CAF50;
 }
+

@@ -1,4 +1,5 @@
 import "./App.css";
+import { GrHomeRounded } from "react-icons/gr";
 
 function App() {
   return (
@@ -6,7 +7,9 @@ function App() {
       <nav>
         <ul>
           <li>
-            <a href="#home">Home</a>
+            <GrHomeRounded className="icon" fill="white" href="#home" size={30}>
+              Home
+            </GrHomeRounded>
           </li>
           <li>
             <a href="#news">News</a>
