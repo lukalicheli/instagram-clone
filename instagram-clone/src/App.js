@@ -26,36 +26,43 @@ function App() {
             <GrHomeRounded fill="white" href="#home" size={30}>
               Home
             </GrHomeRounded>
+            <p>Home</p>
           </li>
           <li>
             <GoSearch href="#search" fill="white" size={30}>
               Search
             </GoSearch>
+            <p>Search</p>
           </li>
           <li>
             <ImCompass2 href="#explore" fill="white" size={30}>
               Explore
             </ImCompass2>
+            <p>Explore</p>
           </li>
           <li>
             <BiMoviePlay href="#reels" fill="white" size={30}>
               Reels
             </BiMoviePlay>
+            <p>Reels</p>
           </li>
           <li>
             <RiMessengerLine href="#messenger" fill="white" size={30}>
               Messenger
             </RiMessengerLine>
+            <p>Messenger</p>
           </li>
           <li>
             <AiOutlineHeart href="#notifications" fill="white" size={30}>
               Notifications
             </AiOutlineHeart>
+            <p>Notifications</p>
           </li>
           <li>
             <FiPlusSquare href="#create" color="white" size={30}>
               Create
             </FiPlusSquare>
+            <p>Create</p>
           </li>
         </ul>
       </nav>

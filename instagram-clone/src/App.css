@@ -9,33 +9,34 @@ nav {
   left: 0;
   top: 0;
   border-right: 1px grey solid;
+  color: white;
+  padding-right: 10px;
+  width: 250px;
 }
 
 ul {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+
   list-style-type: none;
-  padding: 0;
-  width: 200px;
+  
+  
 }
 
 li {
   display: flex;
   align-items: center;
-  justify-content: center;
+ 
   margin-bottom: 40px;
   width: 100%;
 }
 
-li a {
+p {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
+  margin-left: 15px;
 }
+
+
 
 li:hover {
   background-color: #111;
@@ -43,5 +44,20 @@ li:hover {
 
 .active {
   background-color: #4CAF50;
+}
+
+@media (max-width: 1280px) {
+  nav {
+    width: 100px;
+
+  }
+
+  li {
+    margin-bottom: 57px;
+  }
+
+  p {
+    display: none;
+  }
 }
 
