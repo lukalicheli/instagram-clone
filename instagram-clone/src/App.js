@@ -47,10 +47,10 @@ function App() {
             <p>Reels</p>
           </li>
           <li>
-            <RiMessengerLine href="#messenger" fill="white" size={30}>
-              Messenger
+            <RiMessengerLine href="#messages" fill="white" size={30}>
+              Messages
             </RiMessengerLine>
-            <p>Messenger</p>
+            <p>Messages</p>
           </li>
           <li>
             <AiOutlineHeart href="#notifications" fill="white" size={30}>
