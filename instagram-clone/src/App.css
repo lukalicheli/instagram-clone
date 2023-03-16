@@ -3,8 +3,16 @@
   margin-bottom: 60px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
 nav {
   display: flex;
+  flex-direction: column;
   height: 100%;
   position: fixed;
   left: 0;
@@ -34,6 +42,18 @@ p {
   margin-left: 15px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.Newsfeed {
+  
+    width: calc(100% - 250px);
+    margin-left: 250px;
+  
+}
+
 li:hover {
   background-color: #111;
 }
@@ -45,7 +65,7 @@ li:hover {
 @media (max-width: 1280px) {
   nav {
     width: 100px;
-  }
+  } 
 
   li {
  
