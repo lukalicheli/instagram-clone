@@ -1,7 +1,16 @@
 import React from "react";
+import "./NewsFeed.css";
 
 function NewsFeed() {
-  return <p style={{ color: "white" }}>This is a newsfeed</p>;
+  return (
+    <div className="container">
+      <p>This is a newsfeed</p>
+      <p>This is a newsfeed</p>
+      <p>This is a newsfeed</p>
+      <p>This is a newsfeed</p>
+      <p>This is a newsfeed</p>
+    </div>
+  );
 }
 
 export default NewsFeed;
