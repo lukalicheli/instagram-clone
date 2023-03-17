@@ -1,11 +1,7 @@
-.newsfeed-container {
+.stories-container {
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     position: fixed;
     left: 400px;
-    top: 150px;
-}
-
-p {
-    color: white;
 }

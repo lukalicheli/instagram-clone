@@ -3,7 +3,7 @@ import "./NewsFeed.css";
 
 function NewsFeed() {
   return (
-    <div className="container">
+    <div className="newsfeed-container">
       <p>This is a newsfeed</p>
       <p>This is a newsfeed</p>
       <p>This is a newsfeed</p>
