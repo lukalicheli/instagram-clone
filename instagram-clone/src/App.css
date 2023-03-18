@@ -1,11 +1,12 @@
 .ig-icon {
  padding-top: 50px;
   margin-bottom: 60px;
-}
+}  
+
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
   width: 100%;
 }
@@ -48,10 +49,13 @@ a {
 }
 
 .Newsfeed {
+   
   
-    width: calc(100% - 250px);
-    margin-left: 250px;
-  
+}
+
+.right-app-container {
+  display: flex;
+  justify-content: center;
 }
 
 li:hover {
@@ -62,18 +66,27 @@ li:hover {
   background-color: #4CAF50;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 500px) and (max-width: 1280px) {
   nav {
     width: 100px;
   } 
 
-  li {
- 
-    justify-content: space-between; /* add this */
-  }
-
   .icon-name {
     display: none;
   }
+  
 }
+
+@media (max-width: 750px) {
+  .nav-container {
+    display: none;
+  }
+}
+
+.right-app-container {
+  display: flex;
+}
+
+
+
 

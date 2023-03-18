@@ -12,70 +12,70 @@ import Stories from "./components/stories/Stories";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <nav>
-          <ul>
-            <Link to="/">
-              <li>
-                <AiOutlineInstagram
-                  className="ig-icon"
-                  href="#instagram"
-                  fill="white"
-                  size={30}
-                >
-                  Instagram
-                </AiOutlineInstagram>
-              </li>
-            </Link>
-            <Link to="/">
-              <li>
-                <GrHomeRounded fill="white" href="#home" size={30}>
-                  Home
-                </GrHomeRounded>
-                <p className="icon-name">Home</p>
-              </li>
-            </Link>
+    <div className="container">
+      <nav className="nav-container">
+        <ul>
+          <Link to="/">
             <li>
-              <GoSearch href="#search" fill="white" size={30}>
-                Search
-              </GoSearch>
-              <p className="icon-name">Search</p>
+              <AiOutlineInstagram
+                className="ig-icon"
+                href="#instagram"
+                fill="white"
+                size={30}
+              >
+                Instagram
+              </AiOutlineInstagram>
             </li>
-            <Link to="explore">
-              <li>
-                <ImCompass2 href="#explore" fill="white" size={30}>
-                  Explore
-                </ImCompass2>
-                <p className="icon-name">Explore</p>
-              </li>
-            </Link>
+          </Link>
+          <Link to="/">
             <li>
-              <BiMoviePlay href="#reels" fill="white" size={30}>
-                Reels
-              </BiMoviePlay>
-              <p className="icon-name">Reels</p>
+              <GrHomeRounded fill="white" href="#home" size={30}>
+                Home
+              </GrHomeRounded>
+              <p className="icon-name">Home</p>
             </li>
+          </Link>
+          <li>
+            <GoSearch href="#search" fill="white" size={30}>
+              Search
+            </GoSearch>
+            <p className="icon-name">Search</p>
+          </li>
+          <Link to="explore">
             <li>
-              <RiMessengerLine href="#messages" fill="white" size={30}>
-                Messages
-              </RiMessengerLine>
-              <p className="icon-name">Messages</p>
+              <ImCompass2 href="#explore" fill="white" size={30}>
+                Explore
+              </ImCompass2>
+              <p className="icon-name">Explore</p>
             </li>
-            <li>
-              <AiOutlineHeart href="#notifications" fill="white" size={30}>
-                Notifications
-              </AiOutlineHeart>
-              <p className="icon-name">Notifications</p>
-            </li>
-            <li>
-              <FiPlusSquare href="#create" color="white" size={30}>
-                Create
-              </FiPlusSquare>
-              <p className="icon-name">Create</p>
-            </li>
-          </ul>
-        </nav>
+          </Link>
+          <li>
+            <BiMoviePlay href="#reels" fill="white" size={30}>
+              Reels
+            </BiMoviePlay>
+            <p className="icon-name">Reels</p>
+          </li>
+          <li>
+            <RiMessengerLine href="#messages" fill="white" size={30}>
+              Messages
+            </RiMessengerLine>
+            <p className="icon-name">Messages</p>
+          </li>
+          <li>
+            <AiOutlineHeart href="#notifications" fill="white" size={30}>
+              Notifications
+            </AiOutlineHeart>
+            <p className="icon-name">Notifications</p>
+          </li>
+          <li>
+            <FiPlusSquare href="#create" color="white" size={30}>
+              Create
+            </FiPlusSquare>
+            <p className="icon-name">Create</p>
+          </li>
+        </ul>
+      </nav>
+      <div className="right-app-container">
         <Stories></Stories>
         <NewsFeed></NewsFeed>
       </div>
