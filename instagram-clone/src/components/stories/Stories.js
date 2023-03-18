@@ -108,11 +108,6 @@ function Stories() {
 
   return (
     <div className="stories-container">
-      <div className="stories-wrapper" ref={storiesRef}>
-        {pictures.map((pic, index) => (
-          <img key={index} src={pic} alt={`Picture ${index}`} />
-        ))}
-      </div>
       <FaChevronCircleLeft
         fill="white"
         className="stories-button left"
@@ -120,6 +115,12 @@ function Stories() {
       >
         &lt;
       </FaChevronCircleLeft>
+      <div className="stories-wrapper" ref={storiesRef}>
+        {pictures.map((pic, index) => (
+          <img key={index} src={pic} alt={`Picture ${index}`} />
+        ))}
+      </div>
+
       <FaChevronCircleRight
         fill="white"
         className="stories-button right"
