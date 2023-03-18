@@ -1,9 +1,16 @@
 .newsfeed-container {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
-    position: fixed;
-    left: 300px;
-    top: 150px;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+}
+
+.newsfeed-wrapper {
+   
+    display: flex;
+   flex-direction: column; 
 }
 
 p {

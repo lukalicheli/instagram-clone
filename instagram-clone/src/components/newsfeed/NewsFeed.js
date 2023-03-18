@@ -4,11 +4,13 @@ import "./NewsFeed.css";
 function NewsFeed() {
   return (
     <div className="newsfeed-container">
-      <p>This is a newsfeed</p>
-      <p>This is a newsfeed</p>
-      <p>This is a newsfeed</p>
-      <p>This is a newsfeed</p>
-      <p>This is a newsfeed</p>
+      <div className="newsfeed-wrapper">
+        <p>This is a newsfeed</p>
+        <p>This is a newsfeed</p>
+        <p>This is a newsfeed</p>
+        <p>This is a newsfeed</p>
+        <p>This is a newsfeed</p>
+      </div>
     </div>
   );
 }
