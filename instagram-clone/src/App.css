@@ -1,7 +1,7 @@
-.ig-icon {
- padding-top: 50px;
-  margin-bottom: 60px;
-}  
+.icon-name {
+  display: flex;
+  margin-top: 12px;
+}
 
 .container {
   display: flex;
@@ -10,6 +10,7 @@
   width: 100%;
   align-items: center;
   margin-top: 40px;
+  background-color: black;
 }
 
 nav {

@@ -9,6 +9,7 @@ import { FiPlusSquare } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import NewsFeed from "./components/newsfeed/NewsFeed";
 import Stories from "./components/stories/Stories";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
