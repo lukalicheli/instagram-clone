@@ -16,3 +16,26 @@
 p {
     color: white;
 }
+
+.card-text {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.comment-icon {
+    transform: scaleX(-1);
+}
+.send-icon {
+transform: rotate(22deg);
+};
+
+.bookmark-div {
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+

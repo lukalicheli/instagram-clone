@@ -11,6 +11,11 @@ import {
   CCardText,
 } from "@coreui/react";
 
+import { AiOutlineHeart } from "react-icons/ai";
+import { IoChatbubbleOutline } from "react-icons/io5";
+import { BsSend } from "react-icons/bs";
+import { BiBookmark } from "react-icons/bi";
+
 function NewsFeed() {
   const imageAddress = [
     "https://wallpaper.dog/large/10839283.jpg",
@@ -23,20 +28,47 @@ function NewsFeed() {
     <div className="newsfeed-container">
       <div className="newsfeed-wrapper">
         {imageAddress.map((url, index) => (
-          <CCard style={{ width: "18rem" }} key={index}>
+          <CCard
+            style={{ width: "18rem", backgroundColor: "black", color: "white" }}
+            key={index}
+          >
+            {" "}
+            <CCardTitle style={{ backgroundColor: "black" }}>
+              Card title
+            </CCardTitle>
             <CCardImage orientation="top" src={url} />
-            <CCardBody>
-              <CCardTitle>Card title</CCardTitle>
-              <CCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </CCardText>
+            <CCardBody style={{ padding: "0px" }} className="card-body">
+              <div className="card-text">
+                <div className="first-three-icons">
+                  <AiOutlineHeart
+                    className="heart-icon"
+                    color="white"
+                    style={{ marginRight: "10px", marginTop: "10px" }}
+                    size={30}
+                  ></AiOutlineHeart>
+                  <IoChatbubbleOutline
+                    className="comment-icon"
+                    color="white"
+                    size={30}
+                    style={{ marginRight: "10px", marginTop: "10px" }}
+                  ></IoChatbubbleOutline>
+                  <BsSend
+                    className="send-icon"
+                    color="white"
+                    size={30}
+                    style={{ marginRight: "10px", marginTop: "10px" }}
+                  ></BsSend>
+                </div>
+                <div className="bookmark-div">
+                  <BiBookmark
+                    className="bookmark-icon"
+                    color="white"
+                    size={30}
+                    style={{ marginTop: "10px" }}
+                  ></BiBookmark>
+                </div>
+              </div>
             </CCardBody>
-            <CListGroup flush>
-              <CListGroupItem>Cras justo odio</CListGroupItem>
-              <CListGroupItem>Dapibus ac facilisis in</CListGroupItem>
-              <CListGroupItem>Vestibulum at eros</CListGroupItem>
-            </CListGroup>
             <CCardBody>
               <CCardLink href="#">Card link</CCardLink>
               <CCardLink href="#">Another link</CCardLink>
