@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     width: fit-content;
-    padding: 10px;
+   
 }
 
 .newsfeed-wrapper {
@@ -24,7 +24,6 @@ p {
     
 }
 
-
 .comment-icon {
     transform: scaleX(-1);
 }
@@ -39,3 +38,18 @@ transform: rotate(22deg);
 }
 
 
+  .profile-image-container img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile-image-container {
+    margin-bottom: 15px;
+  }
+
+  .card-body {
+    width: 100%;
+    padding: 0px !important;
+  }

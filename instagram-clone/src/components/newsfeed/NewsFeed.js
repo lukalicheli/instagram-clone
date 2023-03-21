@@ -1,14 +1,12 @@
 import React from "react";
 import "./NewsFeed.css";
+import postData from "../../assets/post-data/PostData";
 import {
   CCard,
   CCardImage,
-  CListGroup,
-  CListGroupItem,
   CCardLink,
   CCardBody,
   CCardTitle,
-  CCardText,
 } from "@coreui/react";
 
 import { AiOutlineHeart } from "react-icons/ai";
@@ -17,26 +15,25 @@ import { BsSend } from "react-icons/bs";
 import { BiBookmark } from "react-icons/bi";
 
 function NewsFeed() {
-  const imageAddress = [
-    "https://wallpaper.dog/large/10839283.jpg",
-    "https://assets.vogue.in/photos/5ce431b346cf5953f8b18c74/1:1/w_1080,h_1080,c_limit/featured.2.jpg",
-    "https://cdn.thegameawards.com/1/2022/11/goty_eldenring-2.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlMFy2Jka3XLTgQXG8-IsQkIx-Br3Itb9TCw&usqp=CAU",
-  ];
-
   return (
     <div className="newsfeed-container">
       <div className="newsfeed-wrapper">
-        {imageAddress.map((url, index) => (
+        {postData.map((obj, index) => (
           <CCard
-            style={{ width: "18rem", backgroundColor: "black", color: "white" }}
+            style={{ width: "30rem", backgroundColor: "black", color: "white" }}
             key={index}
           >
             {" "}
-            <CCardTitle style={{ backgroundColor: "black" }}>
-              Card title
+            <CCardTitle style={{ backgroundColor: "black", height: "50px" }}>
+              <div className="profile-image-container">
+                <CCardImage src={obj.profile}></CCardImage>
+              </div>{" "}
             </CCardTitle>
-            <CCardImage orientation="top" src={url} />
+            <CCardBody className="card-body">
+              <div className="post-image">
+                <CCardImage src={obj.img} />
+              </div>
+            </CCardBody>
             <CCardBody style={{ padding: "0px" }} className="card-body">
               <div className="card-text">
                 <div className="first-three-icons">
