@@ -7,6 +7,8 @@ import {
   CCardLink,
   CCardBody,
   CCardTitle,
+  CForm,
+  CFormTextarea,
 } from "@coreui/react";
 
 import { AiOutlineHeart } from "react-icons/ai";
@@ -26,7 +28,12 @@ function NewsFeed() {
             {" "}
             <CCardTitle style={{ backgroundColor: "black", height: "50px" }}>
               <div className="profile-image-container">
-                <CCardImage src={obj.profile}></CCardImage>
+                <CCardImage src={obj.profile}></CCardImage>{" "}
+                <div className="title-username">
+                  <p className="title-username-text">
+                    <b className="title-username-text">{obj.username}</b>
+                  </p>
+                </div>
               </div>{" "}
             </CCardTitle>
             <CCardBody className="card-body">
@@ -67,8 +74,31 @@ function NewsFeed() {
               </div>
             </CCardBody>
             <CCardBody>
-              <CCardLink href="#">Card link</CCardLink>
-              <CCardLink href="#">Another link</CCardLink>
+              <div>
+                <p>
+                  <b>{obj.likes} likes</b>
+                </p>
+                <p style={{ marginBottom: "10px" }}>
+                  <b>{obj.username}</b> {obj.caption}
+                </p>
+              </div>
+              <div>
+                <CForm>
+                  <CFormTextarea
+                    className="comment-form"
+                    placeholder="Add a comment..."
+                    style={{
+                      backgroundColor: "black",
+                      border: "0px",
+                      borderBottom: " 1px solid grey",
+                      resize: "none",
+                      borderRadius: "0px",
+                      height: "50px",
+                      marginBottom: "20px",
+                    }}
+                  ></CFormTextarea>
+                </CForm>
+              </div>
             </CCardBody>
           </CCard>
         ))}

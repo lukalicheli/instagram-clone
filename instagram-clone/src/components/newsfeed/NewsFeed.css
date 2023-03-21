@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     width: fit-content;
+    margin-top: 20px;
    
 }
 
@@ -46,10 +47,25 @@ transform: rotate(22deg);
   }
 
   .profile-image-container {
-    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
   }
 
   .card-body {
     width: 100%;
     padding: 0px !important;
+    margin-bottom: 10px;
   }
+
+  .card-title {
+    height: 40px !important;
+    
+  }
+
+  .title-username {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
