@@ -4,7 +4,6 @@
     align-items: center;
     width: 100%;
   }
-    
   
   .stories-container img {
     display: flex;
@@ -35,4 +34,13 @@
 
   .comment-form {
     padding: 0px !important;
+  }
+
+  .story-usernames {
+    width: 60px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-weight: 500;
   }

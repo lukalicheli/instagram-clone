@@ -34,7 +34,7 @@ function Stories() {
         {profilePictures.map((obj, index) => (
           <div key={index}>
             <img src={obj.profile} alt="posts" />
-            <p>{obj.username}</p>
+            <p className="story-usernames">{obj.username}</p>
           </div>
         ))}
       </div>
