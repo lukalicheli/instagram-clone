@@ -37,6 +37,13 @@ li {
 
 .middle-container {
   height: 100%;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.middle-wrapper {
+  height: 100%;
   width: 650px;
   display:flex;
   flex-direction: column;

@@ -30,6 +30,7 @@
   
   .stories-container {
     display: flex;
+    padding-top: 50px;
   }
 
   .comment-form {

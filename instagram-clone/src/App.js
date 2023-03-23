@@ -82,11 +82,13 @@ function App() {
       </div>
 
       <div className="middle-container">
-        <Stories></Stories>
-        <NewsFeed></NewsFeed>
-      </div>
-      <div className="suggestions-container">
-        <Suggestions></Suggestions>
+        <div className="middle-wrapper">
+          <Stories></Stories>
+          <NewsFeed></NewsFeed>
+        </div>
+        <div className="suggestions-container">
+          <Suggestions></Suggestions>
+        </div>
       </div>
     </div>
   );
