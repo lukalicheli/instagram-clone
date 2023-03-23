@@ -24,12 +24,11 @@ function Stories() {
     <div className="stories-container">
       <FaChevronCircleLeft
         fill="white"
-        className="stories-button left"
+        className="left-button"
         onClick={scrollLeft}
       >
         &lt;
       </FaChevronCircleLeft>
-
       <div className="stories-wrapper" ref={storiesRef}>
         {profilePictures.map((obj, index) => (
           <div key={index}>
@@ -41,7 +40,7 @@ function Stories() {
 
       <FaChevronCircleRight
         fill="white"
-        className="stories-button right"
+        className="right-button"
         onClick={scrollRight}
       >
         &gt;
