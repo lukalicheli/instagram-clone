@@ -1,23 +1,15 @@
-.icon-name {
- 
-  
- 
-}
-
 .app-container {
   display: flex;
   height: 100vh;
   width: 100%;
   background-color: black;
   color: white;
-  flex-direction: row;
 }
 
 .nav-container {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: green;
   border-right: 1px rgba(128, 128, 128, 0.339) solid;
   width: 250px;
   padding-left: 25px;
@@ -33,7 +25,6 @@ ul {
   list-style-type: none;
 }
 
-
 li {
   display: flex;
   margin-top: 12px;
@@ -44,24 +35,16 @@ li {
   height: 50px;
 }
 
-
-
-.newsfeed-container, .suggestions-container {
-  display: flex;
-  flex-direction: column;
+.middle-container {
   height: 100%;
+  width: 650px;
+  display:flex;
+  flex-direction: column;
 }
 
 .newsfeed-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 500px;
-}
-
-.stories-container {
-  display: flex;
-  flex-direction: column;
 }
 
 
@@ -73,16 +56,9 @@ li:hover {
   background-color: #4CAF50;
 }
 
-@media (max-width: 1280px) {
-  .nav-container {
-    width: 75px;
-  } 
 
-  .icon-name {
-    display: none;
-  }
   
-}
+
 
 
 

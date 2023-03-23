@@ -81,7 +81,7 @@ function App() {
         <div className="nav-more"></div>
       </div>
 
-      <div classname="newsfeed-container">
+      <div className="middle-container">
         <Stories></Stories>
         <NewsFeed></NewsFeed>
       </div>

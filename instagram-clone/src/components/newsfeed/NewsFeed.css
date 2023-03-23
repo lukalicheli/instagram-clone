@@ -1,61 +1,106 @@
 .newsfeed-wrapper {
-    display: flex;
-   flex-direction: column; 
-   width: 500px;
-   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
 }
 
-p {
-    color: white;
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black !important;
+  width: 475px;
+  margin-bottom: 20px;
 }
 
-.card-text {
-    color: black;
-    display: flex;
-    justify-content: space-between;
+.card-header {
+  display: flex;
+  padding: 0px !important;
+  margin-bottom: 5px !important;
+  font-size: 14px !important;
+  padding-left: 5px !important;
 }
+
+.card-body {
+  padding: 0px !important;
+}
+
+.header-image {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+
+.header-username {
+  padding-left: 12px;
+  margin-top: 4px;
+}
+
+.interaction-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.first-three-icons {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+
+.likes-username-caption-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.likes-comments-container {
+  font-size: 14px;
+}
+
+.likes, .username-caption {
+  height: 9px;
+}
+
 
 .comment-icon {
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
+
 .send-icon {
 transform: rotate(22deg);
-};
-
-.bookmark-div {
-    display: flex;
-    justify-content: flex-end;
-  
 }
 
+.bookmark-div {
+  display: flex;
+  justify-content: flex-end;
+}
 
-  .profile-image-container img{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
+.comment-form {
+  background-color: black !important ;
+  border: 0px !important;
+  resize: none !important;
+  font-size: 14px !important;
+  font-weight: 500 !important; 
+}
+ 
+.comment-container {
+  border-bottom: 1px rgba(128, 128, 128, 0.339) solid;
+ 
+}
 
-  .profile-image-container {
-
-    display: flex;
-    align-items: center;
-  }
-
-  .card-body {
-    width: 100%;
-    padding: 0px !important;
-    margin-bottom: 10px;
-  }
-
-  .card-title {
-    height: 40px !important;
-    
-  }
-
-  .title-username {
-    margin-left: 15px;
-    display: flex;
-    align-items: center;
-  }
   
+
+/* 
+style={{
+  backgroundColor: "black",
+  border: "0px",
+  borderBottom: " 1px solid grey",
+  resize: "none",
+  borderRadius: "0px",
+  height: "50px",
+  marginBottom: "20px",
+}} */
