@@ -1,17 +1,8 @@
-.newsfeed-container {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-    width: fit-content;
-    margin-top: 20px;
-   
-}
-
 .newsfeed-wrapper {
-   
     display: flex;
    flex-direction: column; 
+   width: 500px;
+   justify-content: center;
 }
 
 p {
@@ -22,7 +13,6 @@ p {
     color: black;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .comment-icon {

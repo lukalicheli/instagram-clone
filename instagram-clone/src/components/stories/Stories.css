@@ -2,20 +2,13 @@
     overflow-x: scroll;
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    width: 48%;
+    width: 50%;
   }
     
-  .stories-container {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    padding: 10px;
-  }
   
   .stories-container img {
+    display: flex;
+    align-items: center;
     width: 60px;
     height: 60px;
     border-radius: 50%;

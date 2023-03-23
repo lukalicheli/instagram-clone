@@ -1,63 +1,67 @@
 .icon-name {
-  display: flex;
-  margin-top: 12px;
-  margin-left: 15px;
+ 
+  
+ 
 }
 
-.container {
+.app-container {
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  height: 100vh;
   width: 100%;
-  align-items: center;
-  margin-top: 40px;
-
   background-color: black;
+  color: white;
+  flex-direction: row;
 }
 
-nav {
+.nav-container {
   display: flex;
   flex-direction: column;
   height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
+  background-color: green;
   border-right: 1px rgba(128, 128, 128, 0.339) solid;
-  color: white;
   width: 250px;
+  padding-left: 25px;
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+  height: 100px;
 }
 
 ul {
-  display: flex;
-  flex-direction: column;
-  margin-left: -10px;
-
+  list-style-type: none;
 }
+
 
 li {
   display: flex;
+  margin-top: 12px;
+  text-decoration: none;
+  color: white;
+  gap: 10px;
   align-items: center;
-  
- 
-  margin-bottom: 20px;
-  width: 100%;
   height: 50px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
 
-.right-app-container {
+
+.newsfeed-container, .suggestions-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   flex-direction: column;
+  height: 100%;
 }
 
-.ig-icon {
- 
+.newsfeed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -69,8 +73,8 @@ li:hover {
   background-color: #4CAF50;
 }
 
-@media (min-width: 500px) and (max-width: 1280px) {
-  nav {
+@media (max-width: 1280px) {
+  .nav-container {
     width: 75px;
   } 
 
@@ -80,16 +84,10 @@ li:hover {
   
 }
 
-@media (max-width: 750px) {
-  .nav-container {
-    display: none;
-  }
-}
 
-.right-app-container {
-  display: flex;
-align-items: center;
-}
+
+
+
 
 
 
