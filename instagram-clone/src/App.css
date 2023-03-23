@@ -9,6 +9,9 @@
 .nav-container {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top:0;
+  left:0;
   height: 100%;
   border-right: 1px rgba(128, 128, 128, 0.339) solid;
   width: 250px;
@@ -30,10 +33,12 @@ li {
   margin-top: 12px;
   text-decoration: none;
   color: white;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
-  height: 50px;
+  height: 45px;
+  font-weight: 600;
 }
+
 
 .middle-container {
   height: 100%;
@@ -52,6 +57,11 @@ li {
 .newsfeed-container {
   display: flex;
   justify-content: center;
+}
+
+.icon-name {
+  display:flex;
+  padding-top: 18px;
 }
 
 

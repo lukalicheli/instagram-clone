@@ -22,7 +22,7 @@ function App() {
               className="ig-icon"
               href="#instagram"
               fill="white"
-              size={30}
+              size={25}
             >
               Instagram
             </AiOutlineInstagram>
@@ -32,46 +32,46 @@ function App() {
           <div>
             <Link to="/">
               <li>
-                <GrHomeRounded fill="white" href="#home" size={30}>
+                <GrHomeRounded fill="white" href="#home" size={25}>
                   Home
                 </GrHomeRounded>
                 <p className="icon-name">Home</p>
               </li>
             </Link>
             <li>
-              <GoSearch href="#search" fill="white" size={30}>
+              <GoSearch href="#search" fill="white" size={25}>
                 Search
               </GoSearch>
               <p className="icon-name">Search</p>
             </li>
             <Link to="explore">
               <li>
-                <ImCompass2 href="#explore" fill="white" size={30}>
+                <ImCompass2 href="#explore" fill="white" size={25}>
                   Explore
                 </ImCompass2>
                 <p className="icon-name">Explore</p>
               </li>
             </Link>
             <li>
-              <BiMoviePlay href="#reels" fill="white" size={30}>
+              <BiMoviePlay href="#reels" fill="white" size={25}>
                 Reels
               </BiMoviePlay>
               <p className="icon-name">Reels</p>
             </li>
             <li>
-              <RiMessengerLine href="#messages" fill="white" size={30}>
+              <RiMessengerLine href="#messages" fill="white" size={25}>
                 Messages
               </RiMessengerLine>
               <p className="icon-name">Messages</p>
             </li>
             <li>
-              <AiOutlineHeart href="#notifications" fill="white" size={30}>
+              <AiOutlineHeart href="#notifications" fill="white" size={25}>
                 Notifications
               </AiOutlineHeart>
               <p className="icon-name">Notifications</p>
             </li>
             <li>
-              <FiPlusSquare href="#create" color="white" size={30}>
+              <FiPlusSquare href="#create" color="white" size={25}>
                 Create
               </FiPlusSquare>
               <p className="icon-name">Create</p>
