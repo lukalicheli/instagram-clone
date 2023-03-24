@@ -74,14 +74,24 @@ li:hover {
 }
 
 
-  
 
+@media screen and (max-width: 1500px) {
+  .nav-container {
+    width: 75px; 
+  }
+  .icon-name {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 1200px) {
+  .suggestions-element-container {
+    display: none;
+  }
+}
 
-
-
-
-
-
-
-
+@media screen and (max-width: 800px) {
+  .nav-container {
+    display: none;
+  }
+}

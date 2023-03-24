@@ -5,7 +5,7 @@ import myPic from "../../assets/profile-pic.jpeg";
 
 function Suggestions() {
   return (
-    <div className="suggestions-container">
+    <di className="suggestions-container">
       <div className="suggestions-header">
         <div className="suggestions-header-left">
           {" "}
@@ -70,7 +70,7 @@ function Suggestions() {
       <div className="suggestions-footer-container">
         <p className="suggestions-footer">2023 INSTAGRAM FROM META</p>
       </div>
-    </div>
+    </di>
   );
 }
 

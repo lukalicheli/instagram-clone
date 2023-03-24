@@ -22,7 +22,7 @@ function App() {
               className="ig-icon"
               href="#instagram"
               fill="white"
-              size={28}
+              size={29}
             >
               Instagram
             </AiOutlineInstagram>
@@ -86,7 +86,7 @@ function App() {
           <Stories></Stories>
           <NewsFeed></NewsFeed>
         </div>
-        <div className="suggestions-container">
+        <div className="suggestions-element-container">
           <Suggestions></Suggestions>
         </div>
       </div>
