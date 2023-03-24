@@ -22,7 +22,7 @@ function App() {
               className="ig-icon"
               href="#instagram"
               fill="white"
-              size={25}
+              size={28}
             >
               Instagram
             </AiOutlineInstagram>

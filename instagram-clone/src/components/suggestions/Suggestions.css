@@ -1,0 +1,109 @@
+.suggestions-container {
+    padding-left: 30px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background-color: black;
+}
+
+.suggestions-header {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usernames-container {
+    width: 100%;
+}
+
+.usernames-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:  18px;
+}
+
+.suggested-profile-pics {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: black;
+    background: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+    padding: 2px;
+}
+
+.username-relationship-container p {
+    padding-left: 10px;
+    font-size: 13px;
+    height: 0px;
+}
+
+.usernames-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.follow-container {
+    display: flex;
+}
+.follow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.name-username p{
+    height: 2px;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.full-name {
+    color: grey;
+}
+
+.switch-button, .follow {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #2895f6;
+  
+}
+
+.suggestions-header-left {
+    display: flex;
+}
+
+.suggestions-for-you-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.links-wrapper, .suggestions-footer-container {
+    color: grey;
+    font-size: 12px;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px; /* adjust the size of the dot */
+    height: 10px;
+    border-radius: 50%; /* make the dot circular */
+    background-color: black; /* set the color of the dot */
+    margin: 0 5px; /* adjust the space between the dot and the adjacent words */
+    vertical-align: middle; 
+}
