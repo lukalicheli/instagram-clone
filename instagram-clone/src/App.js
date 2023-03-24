@@ -27,7 +27,7 @@ function App() {
             >
               Instagram
             </AiOutlineInstagram>{" "}
-            <img src={igWord} className="ig-icon-word"></img>
+            <img src={igWord} className="ig-icon-word" alt="ig word logo"></img>
           </Link>
         </div>
         <div className="nav-icons">

@@ -10,8 +10,7 @@
   display: flex;
   align-items: center;
   width: 60px;
-  height: 60px;
-  border: 1px solid transparent;
+  height: 60px;  
   border-radius: 50%;
   object-fit: cover;
   background: linear-gradient(to right, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
