@@ -11,6 +11,7 @@ import NewsFeed from "./components/newsfeed/NewsFeed";
 import Stories from "./components/stories/Stories";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Suggestions from "./components/suggestions/Suggestions";
+import igWord from "./assets/instagram-logo.png";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
               size={29}
             >
               Instagram
-            </AiOutlineInstagram>
+            </AiOutlineInstagram>{" "}
+            <img src={igWord} className="ig-icon-word"></img>
           </Link>
         </div>
         <div className="nav-icons">

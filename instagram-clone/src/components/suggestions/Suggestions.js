@@ -63,12 +63,18 @@ function Suggestions() {
       </div>
       <div className="links-wrapper">
         <p className="links">
-          About <span className="dot">.</span>Help Press API Jobs Privacy Terms
-          Locations Language Meta Verified
+          About <span className="dot">• </span>Help
+          <span className="dot">• </span> Press <span className="dot">• </span>{" "}
+          API <span className="dot">• </span> Jobs{" "}
+          <span className="dot">• </span> Privacy{" "}
+          <span className="dot">• </span> Terms <span className="dot">• </span>{" "}
+          Locations <span className="dot">• </span> Language{" "}
+          <span className="dot">• </span> Meta <span className="dot">• </span>
+          Verified
         </p>
       </div>
       <div className="suggestions-footer-container">
-        <p className="suggestions-footer">2023 INSTAGRAM FROM META</p>
+        <p className="suggestions-footer">© 2023 INSTAGRAM FROM META</p>
       </div>
     </di>
   );

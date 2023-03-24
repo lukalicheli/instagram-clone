@@ -98,12 +98,3 @@
     font-size: 12px;
 }
 
-.dot {
-    display: inline-block;
-    width: 10px; /* adjust the size of the dot */
-    height: 10px;
-    border-radius: 50%; /* make the dot circular */
-    background-color: black; /* set the color of the dot */
-    margin: 0 5px; /* adjust the space between the dot and the adjacent words */
-    vertical-align: middle; 
-}
