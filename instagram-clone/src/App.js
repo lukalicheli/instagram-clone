@@ -12,6 +12,7 @@ import Stories from "./components/stories/Stories";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Suggestions from "./components/suggestions/Suggestions";
 import igWord from "./assets/instagram-logo.png";
+//need to refactor this code so it passes the online security protocol
 
 function App() {
   return (
