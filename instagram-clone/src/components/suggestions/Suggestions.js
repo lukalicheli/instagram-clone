@@ -5,7 +5,7 @@ import myPic from "../../assets/profile-pic.jpeg";
 
 function Suggestions() {
   return (
-    <di className="suggestions-container">
+    <div className="suggestions-container">
       <div className="suggestions-header">
         <div className="suggestions-header-left">
           {" "}
@@ -35,7 +35,7 @@ function Suggestions() {
       </div>
       <div className="usernames-container">
         {suggestionsData.map((obj, index) => (
-          <div className="usernames-wrapper">
+          <div key={index} className="usernames-wrapper">
             <div className="usernames-left">
               <img
                 src={obj.profile}
@@ -76,7 +76,7 @@ function Suggestions() {
       <div className="suggestions-footer-container">
         <p className="suggestions-footer">© 2023 INSTAGRAM FROM META</p>
       </div>
-    </di>
+    </div>
   );
 }
 
