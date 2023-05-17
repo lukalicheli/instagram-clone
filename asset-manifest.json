@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/instagram-clone/static/css/main.9a139e20.css",
-    "main.js": "/instagram-clone/static/js/main.b9e99300.js",
-    "static/js/787.9d576594.chunk.js": "/instagram-clone/static/js/787.9d576594.chunk.js",
-    "static/media/carrey.webp": "/instagram-clone/static/media/carrey.0122b0ce999cefa1fde9.webp",
-    "static/media/steve-jobs.jpeg": "/instagram-clone/static/media/steve-jobs.2e3becc38db9ed6a6481.jpeg",
-    "static/media/Metallica_logo.png": "/instagram-clone/static/media/Metallica_logo.124d8e4da12ed7977802.png",
-    "static/media/alina-baraz.jpeg": "/instagram-clone/static/media/alina-baraz.fe8faf7ab51b6b9fc821.jpeg",
-    "static/media/jorja-smith.webp": "/instagram-clone/static/media/jorja-smith.9a28b9e568a1a9fbccd7.webp",
-    "static/media/andrew-schultz.jpeg": "/instagram-clone/static/media/andrew-schultz.68472403097fcac3ab12.jpeg",
-    "static/media/50cent.jpeg": "/instagram-clone/static/media/50cent.39ccea4455aebdff965c.jpeg",
-    "static/media/statham.jpeg": "/instagram-clone/static/media/statham.912e2f6acb3f9b8001e5.jpeg",
-    "static/media/elon-musk.jpeg": "/instagram-clone/static/media/elon-musk.19f6ef0e8b3dffe4d175.jpeg",
-    "static/media/profile-pic.jpeg": "/instagram-clone/static/media/profile-pic.556cfc72d3635a6ec274.jpeg",
-    "static/media/mark-zuckerberg.webp": "/instagram-clone/static/media/mark-zuckerberg.a2514b1b75201b96c8e0.webp",
-    "static/media/tom.webp": "/instagram-clone/static/media/tom.7e8435c454492de004fd.webp",
-    "static/media/jeff-bezos.jpeg": "/instagram-clone/static/media/jeff-bezos.eb87e0befe428915784f.jpeg",
-    "static/media/adesanya.webp": "/instagram-clone/static/media/adesanya.38287687bd666b12cb4a.webp",
-    "index.html": "/instagram-clone/index.html",
-    "main.9a139e20.css.map": "/instagram-clone/static/css/main.9a139e20.css.map",
-    "main.b9e99300.js.map": "/instagram-clone/static/js/main.b9e99300.js.map",
-    "787.9d576594.chunk.js.map": "/instagram-clone/static/js/787.9d576594.chunk.js.map"
+    "main.css": "/static/css/main.9a139e20.css",
+    "main.js": "/static/js/main.c576ffe9.js",
+    "static/js/787.9d576594.chunk.js": "/static/js/787.9d576594.chunk.js",
+    "static/media/carrey.webp": "/static/media/carrey.0122b0ce999cefa1fde9.webp",
+    "static/media/steve-jobs.jpeg": "/static/media/steve-jobs.2e3becc38db9ed6a6481.jpeg",
+    "static/media/Metallica_logo.png": "/static/media/Metallica_logo.124d8e4da12ed7977802.png",
+    "static/media/alina-baraz.jpeg": "/static/media/alina-baraz.fe8faf7ab51b6b9fc821.jpeg",
+    "static/media/jorja-smith.webp": "/static/media/jorja-smith.9a28b9e568a1a9fbccd7.webp",
+    "static/media/andrew-schultz.jpeg": "/static/media/andrew-schultz.68472403097fcac3ab12.jpeg",
+    "static/media/50cent.jpeg": "/static/media/50cent.39ccea4455aebdff965c.jpeg",
+    "static/media/statham.jpeg": "/static/media/statham.912e2f6acb3f9b8001e5.jpeg",
+    "static/media/elon-musk.jpeg": "/static/media/elon-musk.19f6ef0e8b3dffe4d175.jpeg",
+    "static/media/profile-pic.jpeg": "/static/media/profile-pic.556cfc72d3635a6ec274.jpeg",
+    "static/media/mark-zuckerberg.webp": "/static/media/mark-zuckerberg.a2514b1b75201b96c8e0.webp",
+    "static/media/tom.webp": "/static/media/tom.7e8435c454492de004fd.webp",
+    "static/media/jeff-bezos.jpeg": "/static/media/jeff-bezos.eb87e0befe428915784f.jpeg",
+    "static/media/adesanya.webp": "/static/media/adesanya.38287687bd666b12cb4a.webp",
+    "index.html": "/index.html",
+    "main.9a139e20.css.map": "/static/css/main.9a139e20.css.map",
+    "main.c576ffe9.js.map": "/static/js/main.c576ffe9.js.map",
+    "787.9d576594.chunk.js.map": "/static/js/787.9d576594.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a139e20.css",
-    "static/js/main.b9e99300.js"
+    "static/js/main.c576ffe9.js"
   ]
 }
